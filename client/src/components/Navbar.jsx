@@ -135,7 +135,7 @@ const Navbar = () => {
                 <KeyboardArrowDownIcon />
               </button>
               {showDropdown && (
-                <ul className="absolute top-10 right-0 bg-white border rounded-lg shadow-lg pt-2 pb-2 ">
+                <ul className="absolute top-10 left-[-50px] bg-white border rounded-lg shadow-lg pt-2 pb-2 ">
                   <li className=" pr-40 pl-3 py-1 hover:text-white hover:bg-btn ">
                     <button onClick={() => changeLanguage("English")}>
                       English
